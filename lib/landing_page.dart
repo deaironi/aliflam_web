@@ -155,17 +155,17 @@ Image selectImage(int selected) {
   if (selected == 0) {
     return Image.asset(
       'mudik_1_0.png',
-      width: 250,
+      width: 259,
     );
   } else if (selected == 1) {
     return Image.asset(
       'pricing.png',
-      width: 250,
+      width: 375,
     );
   } else if (selected == 2) {
     return Image.asset(
       'team.png',
-      width: 250,
+      width: 375,
     );
   } else {
     return Image.asset(
